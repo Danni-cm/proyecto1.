@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="/imagenes/yaeLogo.webp" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Condominio Nuts</title>
+
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="navegador">
+        <div class="vinculos"><a href="">condominio</a></div>
+        <div class="vinculos"><a href="">conjunto1</a></div>
+        <div class="vinculos"><a href="">conjunto2</a></div>
+        <div class="vinculos"><a href="">conjunto3</a></div>
+        <div class="vinculos"><a href="">conjunto4</a></div>
+    </div>
+    <center><h1>Condominio Nuts</h1></center>
+    <br>
+    <img src="/imagenes/yaeLogo.webp" alt="Logo de Condominio Nuts" style="display: block; margin-left: auto; margin-right: auto; width: 200px;">
+    <br>
+
+
+    <style>
+        .contenedor {
+            display: flex;/*activa el modo flexbox*/
+        justify-content: space-between;/* Espacio iguales */
+        gap: 10px;/* espacio entre columnas */
+        padding: 10px;/*borde interno*/
+        }
+
+        .columna {
+            flex: 1;/*cada columna ocupa el mismo espacio*/
+            padding: 20px;/*borde interno*/
+            background-color: #7ab5ec;/*color de fondo*/
+            border: 1px solid;/*borde*/
+            text-align: justify;
+        }
+
+        .navegador{
+            display: flex;/*activa el modo flexbox*/
+            justify-content: space-between;/*centra los botones horizontalmente*/
+            gap: 30px;/*espacio entre los botones*/
+            padding: 10px;/*borde interno*/
+        }
+
+        .vinculos{
+            flex: 1;/*activa el modo flexbox*/
+            padding: 20px;/*borde interno*/
+            background-color: #759be0;/*color de fondo*/
+            border: 1px solid;/*borde*/
+            text-decoration:none;/*elimina el subrayado de los enlaces*/
+            text-align: center;/*centra el texto dentro de los botones*/
+            border-radius: 10px;/*bordes redondeados*/
+        }
+
+        .vinculos:hover{
+            background-color: #7775e0;
+            
+        }
+        .vinculos a {
+            color: rgb(0, 0, 0);/*color del texto de los enlaces*/
+            text-decoration: none;/*elimina el subrayado de los enlaces*/
+        }
+        
+    </style>
+
+
+    <div class="contenedor">
+
+        <div class="columna">Ser la empresa líder en administración de condominios, reconocida por brindar seguridad, confianza y excelencia en la gestión de espacios residenciales, mejorando la calidad de vida de los residentes.</div>
+        <div class="columna">Administrar condominios de manera eficiente y transparente, ofreciendo servicios de mantenimiento, seguridad y atención personalizada que garanticen el bienestar y la tranquilidad de los propietarios y residentes.</div>
+        <div class="columna">Mantener en óptimas condiciones las instalaciones del condominio, asegurar una convivencia armoniosa entre los residentes, optimizar los recursos económicos y ofrecer un servicio de calidad basado en la responsabilidad y la eficiencia.</div>
+
+        
+    </div>
+</body>
+</html>
